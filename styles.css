@@ -1,5 +1,7 @@
 /* Write your CSS here! */
 body{
+    margin: 8px;
+    display: block;
     background-color: orangered;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -9,15 +11,33 @@ article{
     margin-right: 350px;
     padding: 25px;
 }
+.default{
+    margin-bottom: 50px;
+}
 
+.funParagraph{
+    display: block;
+    color: green;
+    background-color: azure;
+    border-radius: 5px;
+}
+#brain{
+    display:block;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+}
 div{
     margin: 100px;
     text-align: center;
 }
 
-h1{
+#mainHeading{
     background-image: url(images/background.jpg);
-    color: yellow;
+    color: red;
+    text-align: center;
+}
+h5{
     text-align: center;
 }
 
