@@ -1,1 +1,28 @@
 /* Write your CSS here! */
+body{
+    background-color: orangered;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+article{
+    font-size: 15pt;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 25px;
+}
+
+div{
+    margin: 100px;
+    text-align: center;
+}
+
+h1{
+    background-image: url(images/background.jpg);
+    color: yellow;
+    text-align: center;
+}
+
+#tldr{
+    border-radius: 25%;
+    width: 300px;
+    height: 150px;
+}
